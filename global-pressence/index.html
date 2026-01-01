@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Presence</title>
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/footer.css">
+
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="icon" href="https://webconvoy.com/public/website/images/faviconion-web.png" type="image/x-icon">
+
+ 
+</head>
+
+<body>
+
+  <!-- Desktop Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container nav-mob d-flex align-items-center">
+      <a class="navbar-brand" href="/">
+        <img src="../image/logo.png" alt="Logo">
+      </a>
+      <div class="humberger-right">
+        <a href="/hire-talent.html" class="btn btn-hire1 d-lg-none d-block">Hire Talent</a>
+        <!-- Hamburger Menu Icon -->
+        <button class="menu-close d-lg-none" id="menuToggle">☰</button>
+      </div>
+      <div class="collapse navbar-collapse d-lg-flex d-none" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+          <!-- Dropdown Item -->
+          <li class="nav-item dropdown-custom position-relative">
+            <a class="nav-link dropdown-toggle-custom d-flex align-items-center" 
+              id="dropdownMenuLink">
+              Who We Are
+              <img src="../image/nav-arrow.png" class="arrow-icon ms-2 mt-1" alt="arrow icon" />
+
+            </a>
+            <!-- Dropdown Menu -->
+            <ul class="dropdown-menu-custom position-absolute p-2 bg-white shadow" style="display: none;">
+              <li><a class="dropdown-item-custom" href="/about_us/">About us </a></li>
+              <li><a class="dropdown-item-custom" href="/global-pressence">Global Presence</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="/product/">Client Projects</a></li>
+
+          <!-- Dropdown Item -->
+          <li class="nav-item dropdown-custom position-relative">
+            <a class="nav-link dropdown-toggle-custom d-flex align-items-center" 
+              id="dropdownMenuLink">
+              Insights
+              <img src="../image/nav-arrow.png" class="arrow-icon ms-2 mt-1" alt="arrow icon" />
+
+            </a>
+            <!-- Dropdown Menu -->
+            <ul class="dropdown-menu-custom position-absolute p-2 bg-white shadow" style="display: none;">
+              <li><a class="dropdown-item-custom" href="/blog/">Blog</a></li>
+              <li><a class="dropdown-item-custom" href="/career/">Career</a></li>
+            </ul>
+          </li>
+
+                 <!-- Dropdown Item -->
+<li class="nav-item dropdown-custom position-relative">
+
+  <a class="nav-link dropdown-toggle-custom d-flex align-items-center"  id="dropdownMenuLink">
+    Industry
+    <img src="/image/nav-arrow.png" class="arrow-icon ms-2 mt-1" alt="arrow icon" />
+  </a>
+
+  <!-- Mega Menu -->
+  <div class="dropdown-menu-custom mega-menu py-5 position-absolute" style="display:none;">
+    <div class="container">
+      <div class="row">
+
+        <!-- LEFT SIDE -->
+        <div class="col-lg-9">
+          <div class="row text-white">
+            
+            <!-- Column 1 -->
+            <div class="col-md-4">
+              <h6 class="menu-heading">INDUSTRIES</h6>
+              <ul class="mega-list">
+                <li><i class="bi bi-mortarboard-fill"></i> Education</li>
+                <li><i class="bi bi-truck"></i> Cyber Security</li>
+                <li><i class="bi bi-cash-stack"></i> Finance</li>
+                <li><i class="bi bi-cart"></i> Ecommerce</li>
+              </ul>
+
+              <h6 class="menu-heading mt-4">ON DEMAND APPS</h6>
+              <ul class="mega-list">
+                <li><i class="bi bi-bag-fill"></i> Food Delivery</li>
+                <li><i class="bi bi-car-front-fill"></i> Taxi Booking</li>
+                <li><i class="bi bi-tools"></i> Hrms</li>
+                 <li><i class="bi bi-basket-fill"></i> Grocery Delivery</li>
+              </ul>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-md-4">
+             
+              <ul class="mega-list mt-4 pt-1">
+                <li><i class="bi bi-heart-fill"></i> Fitness</li>
+                <li><i class="bi bi-controller"></i> Game Development</li>
+                <li><i class="bi bi-building"></i> Real Estate</li>
+                   <li><i class="bi bi-heart-pulse-fill"></i> Healthcare</li>
+              </ul>
+
+              <ul class="mega-list mt-5">
+               
+                <li><i class="bi bi-house-door-fill"></i> Home Services</li>
+                  <li><i class="bi bi-box-seam"></i> Pickup & Delivery</li>
+                <li><i class="bi bi-scissors"></i> Beauty & Salon</li>
+            
+                <li><i class="bi bi-bucket-fill"></i> Laundry Service</li>
+              </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-md-4">
+              <ul class="mega-list mt-4 pt-1">
+             
+                <li><i class="bi bi-people-fill"></i> Social Networking</li>
+                <li><i class="bi bi-trophy-fill"></i> Sports Betting</li>
+                <li><i class="bi bi-camera-reels-fill"></i> AR/VR</li>
+              </ul>
+
+              <ul class="mega-list mt-5 pt-4">
+              
+             
+                <li><i class="bi bi-shop"></i> Marketplace Solutions</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="col-lg-3 slider-area">
+          <div id="rightSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+            <div class="carousel-inner">
+              <div class="carousel-item active"><div class="slider-box"><img src="/image/goodfirms-badge.png" alt="" srcset=""></div></div>
+              <div class="carousel-item"><div class="slider-box"><img src="/image/clutch1-badge.png" alt="" srcset=""></div></div>
+              <div class="carousel-item"><div class="slider-box"><img src="/image/itfirms-badge.png" alt="" srcset=""></div></div>
+            </div>
+
+            <div class="carousel-indicators mt-3">
+              <button type="button" data-bs-target="#rightSlider" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#rightSlider" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#rightSlider" data-bs-slide-to="2"></button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</li>
+          <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+
+        </ul>
+
+        <a href="/contact/" class="btn btn-hire ">Get Developers</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Fullscreen Menu -->
+  <div class="mobile-menu-overlay d-lg-none" id="mobileMenu">
+    <!-- Top Navbar Section -->
+    <div class="menu-header">
+      <a class="navbar-brand" href="./image.html">
+        <img src="../image/logo.png" alt="Logo">
+      </a>
+      <button class="menu-close" id="closeMenu">✖</button>
+    </div>
+
+    <!-- Navigation List -->
+    <ul>
+      <li><a class="nav-link" href="/about_us">About Us</a></li>
+      <li><a class="nav-link" href="global-pressence">Global Presence</a></li>
+       <li><a class="nav-link" href="/product">Client Projects</a></li>
+
+      <!-- Dropdown in Mobile -->
+      <li class="mobile-dropdown-custom position-relative">
+        <a class="nav-link d-flex justify-content-between align-items-center" 
+          id="mobileDropdownToggle">
+           Insights 
+          <span>&#9662;</span>
+        </a>
+        <ul class="mobile-dropdown-menu-custom p-2" style="display: none;">
+          <li><a class="dropdown-item-custom" href="/blog">Blog</a></li>
+          <li><a class="dropdown-item-custom" href="/career">Career</a></li>
+
+          </li>
+        </ul>
+      </li>
+
+   <!-- INDUSTRY MOBILE DROPDOWN -->
+<li class="mobile-dropdown-custom position-relative">
+  <a class="nav-link d-flex justify-content-between align-items-center"  id="industryMobileToggle">
+    Industries
+    <span>&#9662;</span>
+  </a>
+
+  <!-- MOBILE INDUSTRY MENU SAME AS DESKTOP (NO SLIDER) -->
+  <ul class="mobile-industry-menu p-2" style="display:none;">
+    <li><a class="dropdown-item-custom">Education</a></li>
+    <li><a class="dropdown-item-custom">Cyber Security</a></li>
+    <li><a class="dropdown-item-custom">Finance</a></li>
+    <li><a class="dropdown-item-custom">Ecommerce</a></li>
+    <li><a class="dropdown-item-custom">Fitness</a></li>
+    <li><a class="dropdown-item-custom">Dating App Development</a></li>
+    <li><a class="dropdown-item-custom">Game Development</a></li>
+    <li><a class="dropdown-item-custom">Real Estate</a></li>
+    <li><a class="dropdown-item-custom">Healthcare</a></li>
+    <li><a class="dropdown-item-custom">Social Networking</a></li>
+    <li><a class="dropdown-item-custom">Sports Betting</a></li>
+    <li><a class="dropdown-item-custom">AR/VR</a></li>
+
+    <h6 class="mobile-heading mt-3">ON DEMAND APPS</h6>
+    <li><a class="dropdown-item-custom">Food Delivery</a></li>
+    <li><a class="dropdown-item-custom">Grocery Delivery</a></li>
+    <li><a class="dropdown-item-custom">Pickup & Delivery</a></li>
+    <li><a class="dropdown-item-custom">Taxi Booking</a></li>
+    <li><a class="dropdown-item-custom">Home Services</a></li>
+    <li><a class="dropdown-item-custom">Beauty & Salon</a></li>
+   
+    <li><a class="dropdown-item-custom">Laundry Service</a></li>
+    <li><a class="dropdown-item-custom">Hrms</a></li>
+   
+    <li><a class="dropdown-item-custom">Marketplace Solutions</a></li>
+
+  </ul>
+</li>
+
+    </ul>
+
+    <!-- Bottom Button -->
+    <a href="/contact" class="btn nav-btn-hire">Get Developers</a>
+  </div>
+
+  <div class="bgnew-section position-relative text-white">
+    <!-- Background Image -->
+    <div class="bg-image"></div>
+
+    <!-- Content Overlay -->
+    <div class="content-overlay container h-100 d-flex flex-column justify-content-center py-5">
+      <div class="text-box py-5">
+        <h2 class="fw-bold">Powered by a Global Force of Innovation</h2>
+        <p class="mb-3">Innovating the future of digital transformation through technology, creativity, and excellence.
+        </p>
+       <a href="../contact" class="text-decoration-none">
+  <button class="btn btn-primary" 
+          style="background: transparent; border: 1px solid #ccc;">
+    Connect with us
+  </button>
+</a>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Global Presence Section -->
+  <section class="global-section my-0 my-md-5">
+    <div class="container">
+      <div class="row align-items-stretch">
+        <!-- Left Column -->
+        <div class="col-md-4 d-flex">
+          <div class="info-box w-100">
+            <div class="info-item">
+              <h3>4+ Countries <br><span style="color:#000; font-weight:700;">Consulted</span></h3>
+              <p>We've provided expert solutions to clients across more than 5 countries globally.</p>
+            </div>
+            <div class="info-item">
+              <h3>550+ Projects <br><span style="color:#000; font-weight:700;">Delivered</span></h3>
+              <p>Successfully completed over 200 projects, ensuring quality and client satisfaction.</p>
+            </div>
+            <div class="info-item">
+              <h3>5+ Years of <br><span style="color:#000; font-weight:700;">Experience</span></h3>
+              <p>Over five years of industry experience delivering excellence in every project.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-md-8 d-flex flex-column">
+          <div class="flex-grow-1 d-flex flex-column justify-content-between">
+            <h1 class="section-title">Global Presence</h1>
+            <div class="map-container position-relative flex-grow-1">
+              <!-- Placeholder for map image -->
+              <img src="/image/world-map.png" alt="World Map">
+
+              <!-- 📍 Pins with icons -->
+              <div class="pin pin1" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="(CANADA) 300 - 220 KING STREET W, Toronto, Ontario">
+                <img src="/image/Location.svg" alt="Canada location" class="pin-icon">
+              </div>
+              <div class="pin pin2" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="(INDIA) H-159, VDS Building, Noida Sector 63">
+                <img src="/image/Location.svg" alt="India location" class="pin-icon">
+              </div>
+              <div class="pin pin3" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="(MALAYSIA) Jalan Adda 7, Taman Adda Heights, Johor Bahru, Johor">
+                <img src="/image/Location.svg" alt="Malaysia location" class="pin-icon">
+              </div>
+              <div class="pin pin4" data-bs-toggle="tooltip" data-bs-placement="top"
+                title="Dubai">
+                <img src="/image/Location.svg" alt="Malaysia location" class="pin-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="web-sec-bg">
+    <div class="web-section container">
+      <div class="d-flex flex-column">
+        <div class="left-content">
+          <div class="left-img">
+            <img src="/image/footer-logo.png" alt="WebConvoy Logo">
+          </div>
+          <div class="divider"></div>
+          <div class="text-content">
+
+            <span>Empowering Digital Evolution™</span>
+          </div>
+
+
+        </div>
+
+        <p class="paragraph mt-4">
+          Innovating, designing, and developing solutions that redefine how the digital world connects,
+          learns, and grows.
+        </p>
+      </div>
+
+      <div>
+       <a href="../contact" class="btn btn-outline-light">Connect Us</a>
+      </div>
+    </div>
+  </div>
+ 
+  <footer>
+    <div class="container">
+      <div class="row text-start mb-5">
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h5>About</h5>
+         <ul>
+  <li>Global Presence</li>
+  <li>Our Company</li>
+  <li>How We Work</li>
+  <li>Careers</li>
+</ul>
+
+        </div>
+
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h5>Services</h5>
+         <ul>
+  <li>iOS App Development</li>
+  <li>Android App Development</li>
+  <li>Software Development</li>
+  <li>Blockchain Development</li>
+  <li>Flutter App Development</li>
+  <li>React Native App Development</li>
+  <li>Digital Marketing</li>
+</ul>
+
+        </div>
+
+        <div class="col-md-3 mb-4 mb-md-0">
+          <h5>Industries</h5>
+        <ul>
+  <li>Healthcare Apps</li>
+  <li>On Demand Apps</li>
+  <li>Finance Apps</li>
+  <li>Social Networking Apps</li>
+  <li>Entertainment Apps</li>
+  <li>Restaurant Apps</li>
+  <li>Real Estate Apps</li>
+</ul>
+
+        </div>
+
+        <div class="col-md-3">
+          <h5>Staff Augmentation</h5>
+        <ul>
+  <li>Hire Dedicated Resources</li>
+  <li>Hire Flutter Developers</li>
+  <li>Hire Mern Stack Developers</li>
+  <li>Hire React.js Developers</li>
+  <li>Hire React Native Developers</li>
+  <li>Hire iOS Developers</li>
+  <li>Hire AI/ML Developers</li>
+</ul>
+
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="footer-logo mb-3">
+            <img src="/image/footer-logo.png" alt="WebConvoy Logo">
+          </div>
+          <div class="payment-icons">
+            <img src="/image/footer-banner-icon.png" alt="">
+
+          </div>
+        </div>
+        <div class="col-md-6 d-flex flex-column">
+         <div class="col-12 text-md-end mt-4 mt-md-0 d-flex flex-md-column flex-row align-items-center align-items-md-end justify-content-evenly justify-content-md-end mb-2">
+  <a href="https://www.dmca.com/Protection/Status.aspx?ID=428cd76c-c815-46ce-af4a-b1adfa97ed40&amp;refurl=https://webconvoy.com/">
+    <img src="/image/dmca.png" alt="ISO Certified" class="iso-badge mb-2 mb-md-2 me-2 me-md-0">
+  </a>
+  <a href="https://webconvoy.com/public/website/images/ISO-WEBCONVOY-PRIVATE-LIMITED.pdf">
+    <img src="/image/Iso-Certificate.png" alt="ISO Certified" class="iso-badge">
+  </a>
+</div>
+
+
+          <div class="col-12 text-md-end mt-4 mt-md-0">
+            <div class="footer-social">
+              <a href="https://www.facebook.com/webconvoy.pvtltd/"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/webconvoy.pvtltd/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/webconvoy-pvt"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/web_Convoy"><i class="bi bi-x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center mt-4">
+        <p class="mb-0">© 2018-2025 Webconvoy | <a href="#" class="text-white">privacy policy</a> | <a href="#"
+            class="text-white">terms & conditions</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Select the toggle button and the icon inside it
+    const togglerButton = document.querySelector('.navbar-toggler');
+    const togglerIcon = togglerButton.querySelector('.custom-toggler-icon');
+
+    // Add an event listener to monitor the toggler button
+    togglerButton.addEventListener('click', () => {
+      // Check if the navbar is expanded
+      const isExpanded = togglerButton.getAttribute('aria-expanded') === 'true';
+
+      // Toggle the icon
+      togglerIcon.textContent = isExpanded ? '✖' : '☰';
+    });
+  </script>
+   <script>
+  /* =========== MOBILE MENU =========== */
+  const menuToggle = document.getElementById('menuToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const closeMenu = document.getElementById('closeMenu');
+
+  if (menuToggle) {
+    menuToggle.addEventListener('click', () => mobileMenu.classList.add('show'));
+  }
+  if (closeMenu) {
+    closeMenu.addEventListener('click', () => mobileMenu.classList.remove('show'));
+  }
+
+  /* =========== DESKTOP DROPDOWN =========== */
+  const dropdownItems = document.querySelectorAll(".dropdown-custom");
+  let hideTimer;
+
+  dropdownItems.forEach((item) => {
+    const menu = item.querySelector(".dropdown-menu-custom");
+
+    item.addEventListener("mouseenter", () => {
+      clearTimeout(hideTimer);
+
+      dropdownItems.forEach((other) => {
+        if (other !== item) {
+          const otherMenu = other.querySelector(".dropdown-menu-custom");
+          if (otherMenu) otherMenu.style.display = "none";
+        }
+      });
+
+      if (menu) menu.style.display = "block";
+    });
+
+    item.addEventListener("mouseleave", () => {
+      hideTimer = setTimeout(() => {
+        if (menu) menu.style.display = "none";
+      }, 10000);
+    });
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".dropdown-custom")) {
+      dropdownItems.forEach((item) => {
+        const menu = item.querySelector(".dropdown-menu-custom");
+        if (menu) menu.style.display = "none";
+      });
+      clearTimeout(hideTimer);
+    }
+  });
+</script>
+    <script>
+const industryToggle = document.getElementById("industryMobileToggle");
+const industryMenu = document.querySelector(".mobile-industry-menu");
+
+industryToggle.addEventListener("click", (e) => {
+  e.preventDefault();
+  industryMenu.style.display =
+    industryMenu.style.display === "block" ? "none" : "block";
+});
+
+// ===== Mobile sub-dropdown toggle =====
+document.querySelectorAll('.mobile-dropdown-custom').forEach(item => {
+  const toggle = item.querySelector('#mobileDropdownToggle');
+  const menu = item.querySelector('.mobile-dropdown-menu-custom');
+  if (toggle && menu) {
+    toggle.addEventListener('click', e => {
+      e.preventDefault();
+      // Toggle display
+      menu.style.display = (menu.style.display === 'block' ? 'none' : 'block');
+    });
+  }
+});
+
+
+  </script>
+  <!-- ✅ Initialize Tooltips -->
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    const tooltipList = [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el));
+  </script>
+ 
+</body>
+
+</html>

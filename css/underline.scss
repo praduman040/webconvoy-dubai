@@ -1,0 +1,31 @@
+
+
+
+.sdiunderline {
+    font-weight: 400;
+    &:hover {
+      color: #058ACC;
+    }
+  }
+.sub_div_img .sdiunderline {
+    text-decoration: none;
+    position: relative;
+    transition: all 0.5s;
+    &:before {
+      content: "";
+      width: 0;
+      height: 0.1em;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background: #89d8ff;
+      transition: all 0.5s;
+    }
+    &:hover {
+      &:before {
+        width: 100%;
+        left: 0;
+        background: #058ACC;
+      }
+    }
+  }

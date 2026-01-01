@@ -1,0 +1,348 @@
+@media screen and (max-width: 870px) {
+  .para_heading {
+    font-size: 24px !important;
+  }
+
+  .tech_heading {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .flexible-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem !important;
+  }
+
+  .flexible-grid > * {
+    outline: 1px solid #058acc;
+    border-radius: 9px;
+    padding: 7px 23px !important;
+    color: #000;
+    width: fit-content;
+    text-align: center;
+    font-family: var(--font);
+    text-transform: capitalize;
+    font-size: 10px !important;
+    font-style: normal;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 420px) {
+  .flexible-grid {
+    margin: 20px 0px !important;
+  }
+  .flexible-grid > * {
+    outline: 1px solid #058acc;
+    border-radius: 9px;
+    padding: 7px 23px !important;
+    color: #000;
+    width: fit-content !important;
+    text-align: center;
+    font-family: var(--font);
+    text-transform: capitalize;
+    font-size: 10px !important;
+    font-style: normal;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .lelemall_text_overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50% !important;
+    transform: translate(-50%, 0%) !important;
+    top: 8% !important;
+    width: 90% !important;
+  }
+  .lelemall_text_overlay img {
+    width: 60px !important;
+  }
+  .phone_img {
+    display: none;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 50% !important;
+  }
+  .gradient-mask {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 40%;
+    height: 15%;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    );
+  }
+  .lelemall_heading {
+    font-size: 24px !important;
+    margin: 15px 0px !important;
+  }
+
+  .tech_heading {
+    font-size: 24px !important;
+  }
+
+  .para_text {
+    color: #989898;
+    font-family: var(--font);
+    text-transform: capitalize;
+    font-size: 12px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px !important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* lelemall styling */
+.lelemall {
+  padding: 0px;
+  position: relative;
+}
+
+.lelemall_img {
+  width: 100%;
+  height:350px;
+}
+
+.phone_img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 98%;
+  max-width: 100%;
+}
+
+.gradient-mask {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 40%;
+  height: 15%;
+  
+}
+
+.lelemall_text_overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 6.702vw;
+  top: 6.702vw;
+  width: 40vw;
+}
+
+.lelemall_heading {
+  color: #fff;
+  font-family: var(--font);
+  text-transform: capitalize;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 1.34vw 0px;
+}
+
+.lelemall_text {
+  color: #fff;
+  font-family: var(--font);
+  text-transform: capitalize;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: left;
+}
+
+.lelemall_text_overlay img {
+  width: 5vw;
+}
+
+/* para styling */
+
+.para {
+  padding: 6.702vw 1.675vw 4.691vw 1.675vw;
+}
+
+.para_heading {
+  color: #01092d;
+  text-align: center;
+  font-family: var(--font);
+  text-transform: capitalize;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 2.68vw;
+}
+
+.para_text {
+  color: #000;
+  font-family: var(--font);
+  text-transform: capitalize;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  margin-bottom: 1.005vw;
+  width: 100%;
+}
+.line h1 {
+  line-height: 35px;
+}
+
+
+/* pink styling */
+
+.pink_container {
+  padding: 100px 0px;
+  overflow: hidden;
+  display: none;
+}
+@media (max-width: 991px) {
+  .pink_container {
+    display: block;
+  }
+}
+
+.pink {
+  margin-bottom: 75px;
+  padding: 0px 25px 0px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* slider styling */
+
+.hi-slide {
+  position: relative;
+  width: 754px;
+  height: 292px;
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  transition: all 0.6s;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover {
+  opacity: 1;
+  background-color: #fff;
+}
+
+.hi-slide .hi-prev {
+  left: -60px;
+}
+
+.hi-slide .hi-prev::before {
+  content: "<";
+}
+
+.hi-slide .hi-next {
+  right: -60px;
+}
+
+.hi-slide .hi-next::before {
+  content: ">";
+}
+
+.hi-slide > ul {
+  list-style: none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin: 0;
+  padding: 0;
+}
+
+.hi-slide > ul > li {
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left: 377px;
+  top: 146px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  background: white;
+  cursor: pointer;
+  box-shadow: -4px -4px 16px 0px rgba(0, 0, 0, 0.1);
+  transition: border 1s ease-in-out;
+}
+
+.hi-slide > ul > li > img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+
+/* tech styling */
+.tech {
+  padding: 4.691vw 1.675vw 0px 1.675vw;
+}
+
+.tech_heading {
+  color: #000;
+  font-family: var(--font);
+  text-transform: capitalize;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 2.68vw;
+}
+
+.flexible-grid {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.flexible-grid > * {
+  outline: 1px solid #058acc;
+  border-radius: 9px;
+  padding: 10px 20px;
+  color: #000;
+  width:fit-content;
+  text-align: center;
+  font-family: var(--font);
+  text-transform: capitalize;
+  font-size: 1.675vw;
+  font-style: normal;
+  font-weight: 500;
+  white-space: nowrap;
+}

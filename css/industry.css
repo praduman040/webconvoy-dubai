@@ -1,0 +1,215 @@
+   /* ---------- Base Styles ---------- */
+    body {
+
+      font-family: 'Roboto', sans-serif;
+    }
+
+    /* ---------- Hero Section ---------- */
+    .hero-strap {
+      background-color: #0683bf;
+      color: #ffffff;
+      padding: 4.5rem 0;
+    }
+
+    .hero-title {
+      font-size: clamp(2rem, 3.4vw, 3.6rem);
+      font-weight: 600;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 1rem;
+    }
+
+    .hero-lead {
+      font-size: clamp(1rem, 1.6vw, 1.25rem);
+      max-width: 570px;
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: 400;
+    }
+
+    .hero-illustration img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+      filter: drop-shadow(0 18px 40px rgba(0, 0, 0, 0.12));
+      transition: transform 0.4s ease;
+    }
+
+    .hero-illustration img:hover {
+      transform: translateY(-6px);
+    }
+
+    /* ---------- Section Header ---------- */
+    .section-header {
+      text-align: center;
+      padding: 60px 0 30px;
+    }
+
+    .section-title {
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+
+    .section-title .accent {
+      color: #0fa0df;
+    }
+
+    .section-lead {
+      color: #555;
+      max-width: 652px;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0 auto;
+      font-size: 1.4rem;
+    }
+
+    /* ---------- Industry Cards ---------- */
+    .industry-card {
+      background: #fff;
+      border-radius: 12px;
+      width: 300px;
+      padding: 22px;
+      border: 2px solid #e0e0e0;
+      /* ✅ clear visible border */
+      transition: transform 0.2s ease, border-color 0.2s ease;
+      height: 100%;
+      box-shadow: none;
+      /* ✅ remove shadow */
+    }
+
+    .industry-card:hover {
+      transform: translateY(-6px);
+      border-color: #0fa0df;
+      /* ✅ highlight border on hover */
+      box-shadow: none;
+      /* ensure no shadow appears */
+    }
+
+    .card-header-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .card-badge img {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+      display: block;
+    }
+     
+
+    .industry-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #0fa0df;
+      /* Blue heading */
+      margin: 0;
+    }
+
+    .industry-desc {
+      color: #222;
+      line-height: 1.6;
+      font-size: 0.98rem;
+      margin-bottom: 0;
+    }
+    .card-badge{
+        padding: 10px;
+            border-radius: 8px;
+    }
+    
+     .icon-ai {
+   background-color: #f8b4b4;
+ }
+
+ .icon-apps {
+   background-color: #c7b4f8;
+ }
+
+ .icon-cloud {
+   background-color: #b4e1f8;
+ }
+
+ .icon-data {
+   background-color: #eaf8b4;
+   color: #333;
+ }
+
+ .icon-security {
+   background-color: #b4f8ce;
+   color: #333;
+ }
+
+ .icon-software {
+   background-color: #f8d3b4;
+   color: #333;
+ }
+
+    
+    .web-sec-bg
+ {
+    background: linear-gradient(164.164deg, #058ACB 0%, #003C59 100%);
+}
+.web-section {
+    padding: 60px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .left-content {
+      display: flex;
+      align-items: flex-end;
+
+      gap: 0px;
+    }
+
+    .text-content span {
+      font-size: 14px;
+      max-width: 125px;
+      color: #fff;
+      font-weight: 500;
+      display: block;
+      margin-top: 4px;
+    }
+
+    .left-img {
+      width: 42%;
+
+    }
+
+    .left-img img {
+      height: 100%;
+      object-fit: contain;
+      width: 100%;
+    }
+
+    .divider {
+      width: 1px;
+      background-color: rgba(255, 255, 255, 0.4);
+      height: 50px;
+      margin: 0 20px;
+    }
+
+    .paragraph {
+      font-size: 15px;
+      margin-top: 25px;
+      line-height: 1.6;
+      max-width: 500px;
+      color: #dbe8f6;
+    }
+
+    @media (max-width: 768.98px) {
+      .section-title {
+        font-size: 2rem;
+      }
+        .web-section {
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+      }
+
+
+      .industry-title {
+        font-size: 1.15rem;
+      }
+    }

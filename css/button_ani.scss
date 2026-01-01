@@ -1,0 +1,86 @@
+.btn {
+
+
+    border-radius: 6px;
+    // border: 1px solid #058ACC;
+    // background: #058ACC;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1.206vw;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 1.005vw 1.34vw;
+    cursor: pointer;
+
+
+
+    --hue: 190;
+    position: relative;
+    text-decoration: none;
+    background-color: hsl(var(--hue), 100%, 41%);
+    border: 1px solid hsl(var(--hue), 100%, 41%);
+    overflow: hidden;
+    user-select: none;
+    white-space: nowrap;
+    transition: 0.25s;
+  
+    &:hover {
+      background: hsl(var(--hue), 100%, 31%);
+    }
+  
+    &-primary {
+      --hue: 187;
+    }
+  
+    &-ghost {
+      color: hsl(var(--hue), 100%, 41%);
+      background-color: transparent;
+      border-color: hsl(var(--hue), 100%, 41%);
+  
+      &:hover {
+        color: white;
+      }
+    }
+  
+    &-shine {
+      color: white;
+  
+      &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          120deg,
+          transparent,
+          hsla(var(--hue), 100%, 41%, 0.5),
+          transparent
+        );
+        transform: translateX(-100%);
+        transition: 0.6s;
+        animation: shineAnimation 2s linear infinite; 
+      }
+  
+      background: transparent;
+      box-shadow: 0 0 20px 10px hsla(var(--hue), 100%, 41%, 0.5);
+  
+      &::before {
+        transform: translateX(100%);
+      }
+    }
+    
+    // Added shineAnimation keyframes
+    @keyframes shineAnimation {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+  }
+  

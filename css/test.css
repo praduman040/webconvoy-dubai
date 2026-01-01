@@ -1,0 +1,283 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.font_rbt {
+    font-family: var(--font);
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+
+.max-width {
+    max-width: 80vw;
+}
+
+.max-width2 {
+    max-width: 100vw;
+}
+
+.max-width3{
+    max-width: 95vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.outline1 {
+    outline: 2px solid hotpink;
+}
+
+.outline2 {
+    outline: 2px solid rgb(0, 149, 255);
+}
+
+.outline3 {
+    outline: 2px solid rgb(95, 255, 47);
+}
+
+.mrg_left {
+    margin-left: 10px;
+}
+
+
+/* popup styling */
+
+.ind_hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 2s;
+    transform: scale(0);
+}
+
+.ind_show {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+}
+
+@media(prefers-reduced-motion) {
+    .ind_hidden {
+        transition: none;
+    }
+}
+
+.ind_popup:nth-child(2) {
+    transition-delay: 0ms;
+}
+
+.ind_popup:nth-child(3) {
+    transition-delay: 150ms;
+}
+
+.ind_popup:nth-child(4) {
+    transition-delay: 300ms;
+}
+.ind_popup:nth-child(5) {
+    transition-delay: 450ms;
+}
+
+.ind_popup:nth-child(6) {
+    transition-delay: 600ms;
+}
+
+.ind_popup:nth-child(7) {
+    transition-delay: 750ms;
+}
+.ind_popup:nth-child(8) {
+    transition-delay: 900ms;
+}
+
+
+
+
+
+
+
+/* tech styling */
+@media screen and (max-width: 700px) {
+   
+    .tech {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        padding: 6.702vw 1.675vw;
+    }
+    .tech_left {
+        align-items: center !important;
+    }
+    .tech_right {
+        margin-top: 50px;
+        display: flex;
+        justify-content: end;
+        position: relative;
+        max-width: 100%;
+    }
+    .tech_discription{
+        text-align: center !important;
+        margin: 20px 0px 30px 0px !important;
+    }
+}
+@media screen and (max-width: 568px) {
+
+
+    .tech_heading{
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+  
+    .tech_discription{
+        font-size: 10px !important;
+        line-height: 15px !important;
+       
+    }
+    
+}   
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6.702vw 1.675vw;
+}
+
+.bg_img {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.tech_left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.tech_right {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    max-width: 100%;
+}
+
+.tech_heading {
+    color: #252525;
+    text-align: left;
+    font-family: var(--font);
+    font-size: 2.68vw;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.tech_discription {
+    color: #000;
+    text-align: left;
+    font-family: var(--font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin: 30px 0px 60px 0px;
+}
+
+.tech_btn {
+    border-radius: 6px;
+    background: #058ACC;
+    color: #FFF;
+    font-family: var(--font);
+    text-transform: capitalize;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 60px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* popup icon arrow styling  */
+
+
+
+.css {
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    width: 11%;
+    height: auto;
+    z-index: 5;
+}
+
+.react {
+    position: absolute;
+    bottom: 12%;
+    right: 45%;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+}
+
+.html {
+    position: absolute;
+    bottom: -8%;
+    right: 38%;
+    width: 15%;
+    height: auto;
+    z-index: 5;
+}
+
+.laravel {
+    position: absolute;
+    top: 55%;
+    right: -13%;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+}
+
+.javascript {
+    position: absolute;
+    bottom: -5%;
+    right: 13%;
+    width: 15%;
+    height: auto;
+    z-index: 5;
+}
+
+.node {
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    width: 11%;
+    height: auto;
+    z-index: 5;
+}
+
+.wordpress {
+    position: absolute;
+    bottom: 15%;
+    right: -2%;
+    width: 10%;
+    height: auto;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
